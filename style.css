@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: url(./image/full-shot-woman-boxing.jpg);
+    background-repeat: none;
+    background-size: cover;
+    justify-content: center;
+    margin: 5rem auto;
+    /* justify-content: space-between; */
+}
+main{
+    /* border: 2px solid blue; */
+    width: 80%;
+    max-width: 900px;
+    height: 80vh;
+    display: grid;
+    filter: blur(.5px);
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    margin: auto;
+    margin-left: 300px;
+}
+#human{
+    /* border: 2px solid white; */
+}
+
+.ft{
+    /* border: 2px solid white; */
+    width: 65%;
+    color: hsl(43, 68%, 56%);
+    font-size: 10px;
+    margin: 2rem auto;
+    font-family: monospace;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+.ft>h1{
+    /* border: 2px solid white; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 2rem auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.ft>h1 span{
+    /* border: 2px solid red; */
+    font-size: 40px;
+    margin-top: -15px;
+
+}
+
+
+.ft>p{
+    /* border: 2px solid red; */
+    font-weight: 60;
+    font-size: 10px;
+    /* display: flex; */
+    justify-content: center;
+    align-content: center;
+    margin-left: 2px;
+    color:hsl(211.3deg 25.56% 35.29%);
+}
+
+
+#container{
+    /* border: 2px solid red; */
+    border: none;
+    border-radius: 1rem;
+    background-color:hsl(214.48deg 86.14% 19.8%);
+    align-items: center;
+    justify-content: center;
+    display: grid;
+
+    /* display: flex; */
+}
+#container>p{
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    filter: blur(.5px);
+    /* text-transform: capitalize; */
+    
+}
+form{
+    /* border: 2px solid white; */
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto 20px; */
+}
+label{
+    /* border: 2px solid red; */
+    color:hsl(211.3deg 25.56% 35.29%);
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 900;
+    margin-bottom: -20px;
+    /* margin-left: 20px; */
+}
+input{
+    /* border: 2px solid red; */
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    text-transform: capitalize;
+    background-color:hsl(214.12deg 40.8% 24.51%);
+    position: relative;
+}
+
+input::placeholder{
+    /* border: 2px solid white; */
+    color: white;
+    text-transform: capitalize;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-left: 10px;
+}
+#eye{
+    /* border: 2px solid red; */
+    color: white;
+    width: 20px;
+    position: absolute;
+    margin-top: -6rem;
+    margin-left: 200px;
+}
+h4{
+    /* border: 2px solid red; */
+    color: hsl(212.73deg 45.45% 23.73%);
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 9px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    margin-top: -25px;
+
+}
+
+#btn1{
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(39.53deg 100% 50%);
+}
+#btn1>button{
+    color:hsl(41.94deg 63.98% 31.57%);
+    background-color: transparent;
+    border: none;
+    font-size: 10px;
+    font-weight: 1000;
+}
+#p1{
+    /* border: 2px solid red; */
+    color: hsl(211.3deg 25.56% 35.29%);
+    font-size: 8px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#bnt2{
+    /* border: 2px solid white; */
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    text-transform: capitalize;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(43, 68%, 56%);
+}
+#bnt2>button{
+    /* border: 2px solid red; */
+    background-color:  transparent;
+    border: none;
+    color: hsl(39.53deg 100% 50%);
+    font-weight: 900;
+    font-size: 10px;
+    margin-top: -15px;
+}
+#p2{
+    color: hsl(211.3deg 25.56% 35.29%);
+    font-size: 8px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bnt3{
+    border: 2px solid white;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    height: 30px;
+    margin: ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(212.73deg 45.45% 23.73%);
+    gap: 3px;
+}
+#bnt3 button{
+    /* border: 2px solid yellow; */
+    border: none;
+    text-transform: capitalize;
+    font-size: 10px;
+    background-color: transparent;
+ color:hsl(39.53deg 100% 50%);
+}
+#bnt3 i{
+    color:hsl(39.53deg 100% 50%);
+}
