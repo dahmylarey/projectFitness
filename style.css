@@ -13,7 +13,7 @@ body{
     /* justify-content: space-between; */
 }
 main{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 80%;
     max-width: 11000px;
     height: 80vh;
