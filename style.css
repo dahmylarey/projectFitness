@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
 }
 body{
     background-image: url(./image/full-shot-woman-boxing.jpg);
@@ -12,16 +13,16 @@ body{
     /* justify-content: space-between; */
 }
 main{
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
     width: 80%;
-    max-width: 900px;
+    max-width: 11000px;
     height: 80vh;
     display: grid;
     filter: blur(.5px);
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: repeat(2. 1fr);
     justify-content: center;
     margin: auto;
-    margin-left: 300px;
+    margin-left: -150px;
 }
 #human{
     /* border: 2px solid white; */
@@ -70,12 +71,12 @@ main{
 
 
 #container{
-    /* border: 2px solid red; */
+    border: 2px solid red;
     border: none;
     border-radius: 1rem;
     background-color:hsl(214.48deg 86.14% 19.8%);
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     display: grid;
 
     /* display: flex; */
